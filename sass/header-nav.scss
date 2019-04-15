@@ -1,0 +1,18 @@
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: $tablet-hd) {
+  .header-nav {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
